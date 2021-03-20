@@ -1,0 +1,15 @@
+<div>
+    <table border="1">
+        <tr>
+            <td>PID</td>
+            <td>PNAME</td>
+            <td>DESCRIPTION</td>
+            <td>COST</td>
+        </tr>
+        <tr *ngFor="let p of products">
+            <td>{{p.Pid}}</td>
+            <td>{{p.PName}}</td>
+            <td>{{p.desc}}</td>
+            <td>{{p.cost}}</td>
+        </tr>
+    </table>

@@ -1,0 +1,10 @@
+.btn
+{
+    color:teal;
+    background-color: tomato;
+}
+
+.vl {
+  border-top: 2px solid black;
+  height: 500px;
+}
